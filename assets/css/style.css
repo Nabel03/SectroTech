@@ -2,14 +2,12 @@
 background-color: darkgray;
 }
 
-.navbar {
-background-color: transparent;
-}
-
 #col1 {
 background-color: #1f456e;
 text-align: center;
 height: 100vh;
+float: left;
+width: 50%;
 }
 #col1 h1 {
 font-style: italic;
@@ -23,13 +21,46 @@ font-style: italic;
 font-size: 20px;
 font-weight: 900;
 color: white;
+text-align: center;
 } 
 #col1 button{
 background-color: white;
 font-weight: 900;
 color: black !important;
+
 }
 #col1 button:hover {
 background-color: grey;
 }
 
+#col2{
+float: right;
+width: 50%;
+height: 100vh;
+color: black;
+}
+#col2 p {
+font-size: 15px;
+font-weight: 600;
+text-align: center;
+padding-top: 200px;
+} 
+#col2 button{
+font-weight: 900;
+background-color: #1f456e;
+outline: #1f456e !important;
+}
+#col2 button:hover {
+background-color: grey;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #col1 #col2 {
+    width: 100%;
+  }
+}
