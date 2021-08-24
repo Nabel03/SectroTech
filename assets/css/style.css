@@ -141,6 +141,18 @@ text-align: justify;
 }
 
 /* main div media query */
+@media screen and (max-width: 400px) {
+#main1{
+width: 100%;
+}
+#main1 img{
+width: 320px;
+}
+#main4 img{
+width: 315px;
+}
+}
+
 @media screen and (max-width: 600px) {
 #main1{
 width: 100%;
