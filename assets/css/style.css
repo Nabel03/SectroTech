@@ -147,7 +147,6 @@ width: 100%;
 }
 #main1 img{
 width: 329px;
-margin-left: -15px;
 }
 #main2{
 width:
@@ -160,6 +159,61 @@ font-weight: bold;
 padding-top: 0px;
 }
 #main2 p {
+padding-top: 15px;
+font-weight: 500;
+letter-spacing: -1px;
+text-align: justify;
+}
+}
+/* law something section */
+#main4 {
+width: 50%;
+height: 100vh;
+float: right;
+background-color: #d6cfc7;
+margin-top: -130px;
+text-align: center;
+}
+#main4 img{
+width: 635px;
+height: 100%;
+}
+#main3 {
+width: 50%;
+height: 100vh;
+float: left;
+text-align: center;
+}
+#main3 h3 {
+font-size: 30px;
+letter-spacing: -2px;
+font-weight: bold;
+padding-top: 120px;
+}
+#main3 p {
+font-weight: 500;
+letter-spacing: -1px;
+text-align: justify;
+}
+
+/* main 3 & 4 media query */
+@media screen and (max-width: 600px) {
+#main4{
+width: 100%;
+padding-top: 0px;
+}
+#main4 img{
+width: 315px;
+}
+#main3{
+width: 100%;
+}
+#main3 h3 {
+font-size: 30px;letter-spacing: -2px;
+font-weight: bold;
+padding-top: 0px;
+}
+#main3 p {
 padding-top: 15px;
 font-weight: 500;
 letter-spacing: -1px;
