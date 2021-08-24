@@ -23,19 +23,22 @@ font-weight: bold;
 }
 
 /* unfinished */
-.ind{
+#ind{
 font-weight: bold;
-color: #fff !important;
 background-color: #1f456e;
-}
+}/* unfinished */
+
 .biz:hover{
 background-color: #bebdb8;
 color: #fff;
 }
-.logo{
-justify-content: left !important;
-}/* unfinished */
 
+.logo{
+margin-right: 900px;
+font-weight: bolder;
+font-size: 20px;
+letter-spacing: -1px;
+}
 /* Columns CSS - Col1 left*/
 #col1 {
 background-color: #1f456e;
@@ -107,6 +110,9 @@ color: #000 !important;
 #col2 {
     width: 100%;
     }
+    .logo{
+margin-right: 100px;
+}
 }
 
 
