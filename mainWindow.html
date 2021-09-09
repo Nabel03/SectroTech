@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SectroApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+<div class="container-fluid">
+<div id="col1" class="column col-sm-6 col-lg-6">
+<h1>Welcome to Sectro</h1>
+<p>I already have an account.</p>
+<button type="button" class="btn btn-outline-primary btn-lg mt-5" onclick="location.href='./form/index.html'">Sign in</button>
+</div>
+
+<div id="col2" class="column col-sm-6 col-lg-6">
+<p><span class="join">Join the SectroTech family.</span><br><br>
+Click on the desired button to sign up.<br>For businesses and individuals</p>
+<button type="button" class="btn btn-primary btn-lg mt-5" onclick="location.href='./business.html'">Business</button>
+<button type="button" class="btn btn-primary btn-lg mt-5" onclick="location.href='./signup.html'">Individual</button>
+</div>
+</div>
+
+    <script>
+    const electron = require('electron');
+    const { ipcRenderer } = electron;
+    const { dialog } = electron.remote;
+    const ul = document.querySelector('ul');
+
+function openLink() {
+  window.open("./signIn.html");
+  }
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

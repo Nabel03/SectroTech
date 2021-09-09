@@ -1,0 +1,127 @@
+
+/* Columns CSS - Col1 left*/
+#col1 {
+background-color: #1f456e;
+text-align: center;
+height: 100vh;
+float: left;
+width: 50%;
+}
+#col1 h1 {
+font-style: italic;
+font-size: 35px;
+font-weight: 900;
+color: white;
+padding-top: 200px;
+} 
+#col1 p {
+font-style: italic;
+font-size: 20px;
+font-weight: 900;
+color: white;
+text-align: center;
+} 
+#col1 button{
+background-color: white;
+font-weight: 900;
+color: black !important;
+}
+#col1 button:hover {
+background-color: grey;
+color: #fff !important;
+}
+
+/* Columns CSS - Col2 right*/
+#col2{
+float: right;
+text-align: center;
+width: 50%;
+height: 100vh;
+color: black;
+background-color: #d6cfc7;
+}
+#col2 p {
+font-size: 15px;
+font-weight: 800;
+text-align: center;
+padding-top: 200px;
+letter-spacing: -1px;
+} 
+#col2 button{
+font-weight: 900;
+background-color: #1f456e;
+outline: #1f456e !important;
+}
+#col2 button:hover {
+background-color: grey;
+color: #000 !important;
+}
+.join {
+font-style: italic;
+font-size: 30px;
+font-weight: 900;
+color: white;
+padding-top: 200px;
+} 
+
+/* contact form */
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #1f456e;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.back-btn { 
+color: #fff;
+background-color: #1f456e;
+border-radius: 50%;
+}
